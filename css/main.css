@@ -279,6 +279,7 @@ body {
 .footer-column:last-child {
   position: relative;
 }
+
 .footer-column:last-child::before {
   content: "";
   position: absolute;
@@ -353,6 +354,11 @@ li {
   opacity: 0.4;
   transition: opacity 0.3s ease-in-out;
   cursor: pointer;
+}
+
+.social-link:hover {
+  background-color: #ffd723;
+  opacity: 0.9;
 }
 
 .social-link-fb {
